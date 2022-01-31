@@ -1,0 +1,43 @@
+services:
+  clientapp:
+    build:
+      context: E:\MyProject\CleanArchitecture\src\WebUI\ClientApp
+      dockerfile: Dockerfile
+    depends_on:
+      webui:
+        condition: service_started
+    image: clientapp
+    restart: on-failure
+  db:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Your_password123
+    image: mcr.microsoft.com/mssql/server
+    ports:
+    - published: 1433
+      target: 1433
+  webui:
+    build:
+      context: E:\MyProject\CleanArchitecture
+      dockerfile: src/WebUI/Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_Kestrel__Certificates__Default__Password: Your_password123
+      ASPNETCORE_Kestrel__Certificates__Default__Path: /https/aspnetapp.pfx
+      ConnectionStrings__DefaultConnection: Server=db;Database=CleanArchitectureDb;User=sa;Password=Your_password123;MultipleActiveResultSets=true
+      IdentityServer__Key__Type: Development
+      SpaBaseUrl: http://clientapp:4200
+      UseInMemoryDatabase: "false"
+    image: webui
+    ports:
+    - published: 5000
+      target: 5000
+    - published: 5001
+      target: 5001
+    restart: on-failure
+    volumes:
+    - C:\Users\ACER\.aspnet\https:/https:ro
+version: '3.4'

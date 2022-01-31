@@ -1,0 +1,2 @@
+E:\MyProject\CleanArchitecture\bin\Debug\CleanArchitecture.WebUI.dll
+E:\MyProject\CleanArchitecture\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

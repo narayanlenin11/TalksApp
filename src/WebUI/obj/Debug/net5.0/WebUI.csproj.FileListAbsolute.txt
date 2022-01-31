@@ -1,0 +1,8 @@
+E:\MyProject\CleanArchitecture\src\WebUI\obj\Debug\net5.0\WebUI.csprojAssemblyReference.cache
+E:\MyProject\CleanArchitecture\src\WebUI\obj\Debug\net5.0\WebUI.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProject\CleanArchitecture\src\WebUI\obj\Debug\net5.0\WebUI.AssemblyInfoInputs.cache
+E:\MyProject\CleanArchitecture\src\WebUI\obj\Debug\net5.0\WebUI.AssemblyInfo.cs
+E:\MyProject\CleanArchitecture\src\WebUI\obj\Debug\net5.0\WebUI.csproj.CoreCompileInputs.cache
+E:\MyProject\CleanArchitecture\src\WebUI\obj\Debug\net5.0\CleanArchitecture.WebUI.MvcApplicationPartsAssemblyInfo.cache
+E:\MyProject\CleanArchitecture\src\WebUI\obj\Debug\net5.0\WebUI.RazorAssemblyInfo.cache
+E:\MyProject\CleanArchitecture\src\WebUI\obj\Debug\net5.0\WebUI.RazorAssemblyInfo.cs

@@ -1,0 +1,21 @@
+
+<style>
+  .center {
+    margin: 0px 56px 0px 629px;
+  }
+</style>
+  <div *ngIf="isLoggedIn$ | async">
+    <app-nav-menu></app-nav-menu>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div style="background-color: mediumturquoise;" *ngIf="!(isLoggedIn$ | async)">
+    <div class="center">
+      <app-login ></app-login>
+    </div>
+    </div>
+
+
+
+

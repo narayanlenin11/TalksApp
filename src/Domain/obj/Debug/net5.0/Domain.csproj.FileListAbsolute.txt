@@ -1,0 +1,5 @@
+E:\MyProject\CleanArchitecture\src\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProject\CleanArchitecture\src\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+E:\MyProject\CleanArchitecture\src\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+E:\MyProject\CleanArchitecture\src\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+E:\MyProject\CleanArchitecture\src\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
